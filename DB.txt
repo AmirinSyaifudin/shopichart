@@ -1,0 +1,148 @@
+
+
+index 
+
+
+ $produk = DB::table('produk')
+            ->join('katagori', 'produk.id', '=', 'katagori.id')
+            ->select(
+                'produk.*',
+                'produk.id',
+                'produk.nama_produk',
+                'produk.qty',
+                'produk.harga',
+                'katagori.id',
+                'katagori.nama_katagori'
+            )
+            ->get();
+
+        $katagori = DB::table('katagori')->get();
+
+        $data = array(
+            'produk'               => $produk,
+            'katagori'              => $katagori,
+        );
+        // dd($produk);
+        return view('admin.produk.index', $data);
+
+
+
+
+
+
+    // $produk = DB::table('produk')
+        //     ->join('katagori', 'produk.id', '=', 'katagori.id')
+        //     ->select(
+        //         'produk.*',
+        //         'produk.id',
+        //         'produk.nama_produk',
+        //         'produk.qty',
+        //         'produk.harga',
+
+        //         'katagori.nama_katagori'
+        //     )
+        //     ->get();
+
+        // $katagori = DB::table('katagori')->orderBy('urutan', 'ASC')->get();
+
+
+     // return view('admin.produk.index', ['produk' => $produk]);
+
+
+    // return view('admin.produk.index', compact('produk'));
+        //return view('admin.produk.index', compact(['produk' => $produk, 'katagori' => $katagori]));
+
+create
+
+
+
+
+
+
+
+store 
+
+
+
+
+  // $simpan = DB::table('produk')->insert([
+        //     'katagori_id'   => $request->katagori_id,
+        //     'nama_produk'   => $request->nama_produk,
+        //     'harga'         => $request->harga,
+        //     'qty'           => $request->qty
+        // ]);
+
+
+        // dd($simpan);
+        //  dd($request->all());
+        // if ($simpan) {
+        //     return redirect('/admin/produk')->with('sukses', 'Data Berhasil Di Tambahkan !!!');
+        // }
+
+
+
+show 
+
+
+
+
+
+ecit 
+
+
+
+
+
+
+upfate
+
+
+
+
+
+delete 
+
+
+
+
+
+
+  // $produk = DB::table('produk')->get();
+        // $produk = DB::table('produk')
+        // ->join('katagori', 'produk.nama_produk', 'produk.qty', 'produk.harga', '=', 'katagori_nama_katagori')->get();
+
+
+        // $produk = DB::table('produk')
+        //     ->join('katagori', 'produk.katagori_id', '=', 'katagori.katagori_id')
+        //     ->select('produk.nama_produk', 'produk.qty', 'produk.harga', 'katagori.nama_katagori')
+        //     ->where('produk.produk_id', '=', 'katagori_id')
+        //     ->get();
+
+        // $produk = DB::table('produk')
+        //     ->join('katagori', 'produk.katagori_id', '=', 'katagori.katagori_id')
+        //     ->select('produk.nama_produk', 'produk.qty', 'produk.harga', 'katagori.nama_katagori')
+        //     ->limit('10')
+        //     ->get();
+
+
+        // $produk = DB::table('produk')
+        // ->join('katagori', 'produk.id', '=', 'katagori.katagori_id')
+        // ->select('produk.id', 'produk.nama_produk', 'produk.qty', 'produk.harga', 'katagori.nama_katagori')
+        // ->get()
+
+           // $produk = DB::table('produk')->insert([
+        //     // 'katagori_id'   => $request->katagori_id,
+        //     'nama_produk'   => $request->nama_produk,
+        //     'harga'         => $request->harga,
+        //     'qty'           => $request->qty
+        // ]);
+
+        // $katagori = DB::table('katagori')->get();
+
+        // $data = array(
+        //     'produk'               => $produk,
+        //     'katagori'              => $katagori
+        // );
+
+
+

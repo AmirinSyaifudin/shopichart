@@ -1,0 +1,53 @@
+kekurangan ecommarce laravel 7 
+
+
+1. JUMLAH SEMUA TRANSAKSI 
+
+2.  ADMIN 
+	- TRANSAKSI 
+	1. menampilkan 1 nama user saja, tidak ganda
+	2. proses, menjadi dua pilihan, PENGIRIMAN & PROSES OENGIRIMAN 
+	3. Menyempurnakan INVOICE
+	4. JUMLAH 
+	5. PENGIRIMAN 
+	6. TOTAL 
+ 
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+
+
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.

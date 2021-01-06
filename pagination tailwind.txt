@@ -1,0 +1,144 @@
+
+
+<section id="skill" class="container mx-auto py-4 bg-white px-4">
+        <div class="flex flex-wrap">
+            <!-- box pertama menampilkan gambar -->
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mt-20">
+                <!-- source img4.jpg didownload dari situs unsplash.com, Jess Bailey - @jessbailey-->
+                <img src="img/img4.jpg" class="max-w-full rounded-lg shadow-lg">
+            </div>
+
+            <!-- box kedua menampilkan skill framework -->
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+                <div class="md:pr-12">
+                    <h1 class="w-full my-2 text-5xl font-bold text-center text-gray-700">Skill Framework</h1>
+                    <div class="mb-4">
+                        <div class="h-1 mx-auto bg-pink-500  w-2/3  opacity-75 my-0 mx-0 rounded"></div>
+                    </div>
+                    <p class="mt-4 text-lg text-gray-600">Berikut adalah item dan skala keahlian untuk framework :</p>
+                    <ul class="list-none mt-4">
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">Codeigniter</p>
+                            <div class="gradient-skill w-7/8"></div>
+                        </li>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">Laravel</p>
+                            <div class="gradient-skill w-3/4"></div>
+                        </li>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">Bootstrap</p>
+                            <div class="gradient-skill w-2/3"></div>
+                        </li>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">Tailwindcss</p>
+                            <div class="gradient-skill w-1/2"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ <div class="bg-green px-4 py-4 m-2 shadow-lg rounded">
+                <img src="img/img2.jpg" class="w-fill rounded-lg">
+                <div class="px-2 py-2 text-center">
+                    <p class="fond-bold text-2xl font-bold mb-2 text-gray-900">Sistem Informasi Perpustakaan</p>
+                    <div class="mb-4">
+                        <div class="h-1 mx-auto bg-pink-500 w-1/4 opacity-75 my-0 py-0 rounded"></div>
+                    </div>
+                    <p class="text-white-900 text-base font-bold"> Sistem Perpustakaan Menggunakan Laravel 7, Ajax, Admin LTE, Boostrap, Materializ,Permission
+                    </p>
+                </div>
+                <div class="px-2 py-2 text-center">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg">Detail</button>
+                </div>
+            </div>
+
+            <div class="bg-pink px-4 py-4 m-2 shadow-lg rounded">
+                <img src="img/img4.jpg" class="w-fill rounded-lg">
+                <div class="px-2 py-2 text-center">
+                    <p class="fond-bold text-2xl font-bold mb-2 text-gray-900">Coffee Java</p>
+                    <div class="mb-4">
+                        <div class="h-1 mx-auto bg-pink-500 w-1/4 opacity-75 my-0 py-0 rounded"></div>
+                    </div>
+                    <p class="text-white-900 text-base font-bold">Coffee Java, Laravel 7, Ajax, Admin LTE, Argon CSS,
+                    </p>
+                </div>
+                <div class="px-2 py-2 text-center">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg">Detail</button>
+                </div>
+            </div>
+
+            <div class="bg-yellow px-4 py-4 m-2 shadow-lg rounded">
+                <img src="img/img4.jpg" class="w-fill rounded-lg">
+                <div class="px-2 py-2 text-center">
+                    <p class="fond-bold text-2xl font-bold mb-2 text-gray-900">RESTful API</p>
+                    <div class="mb-4">
+                        <div class="h-1 mx-auto bg-pink-500 w-1/4 opacity-75 my-0 py-0 rounded"></div>
+                    </div>
+                    <p class="text-white-900 text-base font-bold">Laravel 7, POSTMAN,
+                    </p>
+                </div>
+                <div class="px-2 py-2 text-center">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg">Detail</button>
+                </div>
+            </div>
+
+
+
+
+
+    <div class="bg-white px-4 py-3 flex items-center justify-between sm:px-6 gradient-nav">
+        <div class="flex-1 flex justify-between sm:hidden">
+          <a href="#" class="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm leading-5 font-medium rounded-md text-gray-700 bg-white hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+            Previous
+          </a>
+          <a href="#" class="ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm leading-5 font-medium rounded-md text-gray-700 bg-white hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+            Next
+          </a>
+        </div>
+        <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+          <div>
+            <p class="text-sm leading-5 text-gray-700">
+              Showing
+              <span class="font-medium">1
+              </span>
+              to
+              <span class="font-medium">10
+              </span>
+              of
+              <span class="font-medium">97
+              </span>
+              results
+            </p>
+          </div>
+          <div>
+            <nav class="relative z-0 inline-flex shadow-sm">
+              <a href="#" class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm leading-5 font-medium text-gray-500 hover:text-gray-400 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150" aria-label="Previous">
+                <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+              </a>
+              <a href="#" class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                1
+              </a>
+              <a href="#" class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                2
+              </a>
+              <a href="#" class="hidden md:inline-flex -ml-px relative items-center px-4 py-2 border border-gray-300 bg-white text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150">
+                3
+              </a>
+              <span class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm leading-5 font-medium text-gray-700">
+                ...
+              </span>
+
+              <a href="#" class="-ml-px relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm leading-5 font-medium text-gray-500 hover:text-gray-400 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150" aria-label="Next">
+                <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                </svg>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
